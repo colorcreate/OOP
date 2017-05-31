@@ -43,10 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Invader.cs" />
+    <Compile Include="Level.cs" />
     <Compile Include="Map.cs" />
+    <Compile Include="MapLocation.cs" />
+    <Compile Include="MDException.cs" />
     <Compile Include="Path.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tower.cs" />
   </ItemGroup>
