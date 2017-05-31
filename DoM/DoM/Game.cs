@@ -43,8 +43,9 @@ namespace DoM
                     });
 
                 Invader[] invaders =
-                {
-                    new Invader(path),                    
+                {                    
+                    new Invader(path),
+                    new ShieldedInvader(path),
                     new Invader(path),
                     new Invader(path)
                 };

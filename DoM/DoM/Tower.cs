@@ -11,7 +11,7 @@ namespace DoM
         private readonly MapLocation _location;
         private const int _range = 1;
         private static Random _random = new Random();
-        private const double _accuracy = 0.2;
+        private const double _accuracy = 0.8;
         private const int _power = 1;
 
 

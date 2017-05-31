@@ -21,7 +21,8 @@ namespace DoM
         //}
         private readonly Path _path;
         private int _pathStep = 0;
-        public int Health { get; private set; } = 2;
+        public virtual int Health { get; protected set; } = 2;
+        protected virtual int stepSize { get; } = 1;
 
         //public MapLocation Location { get; private set; }
 
@@ -38,12 +39,12 @@ namespace DoM
             _path = path;
         }
 
-        public void Move()
+        public virtual void Move()
         {
             _pathStep += 1;
         }
 
-        public void decreaseHealth(int factor)
+        public virtual void decreaseHealth(int factor)
         {
             Health -= factor;
         }
